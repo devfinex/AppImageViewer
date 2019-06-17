@@ -6,9 +6,7 @@
 //
 
 import Foundation
-
 import UIKit.UIImage
-
 
 public protocol SKCacheable {}
 
@@ -128,7 +126,7 @@ public struct SKPhotoBrowserOptions {
     
     public static var backgroundColor: UIColor = .black
     public static var indicatorColor: UIColor = .white
-    public static var indicatorStyle: UIActivityIndicatorView.Style = .whiteLarge
+    public static var indicatorStyle: UIActivityIndicatorView.Style = .white
     
     /// By default close button is on left side and delete button is on right.
     ///
